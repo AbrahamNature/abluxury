@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'Screen4.dart';
 class Screen3 extends StatelessWidget {
   const Screen3({super.key});
   @override
@@ -22,7 +22,12 @@ class Screen3 extends StatelessWidget {
                 ),
                  GestureDetector(
                   onTap: () {
-                    Navigator.popAndPushNamed(context, '/Screen5');
+                    Navigator.push(
+                      context,
+                    MaterialPageRoute(
+                      builder: (context) => Screen4(),
+                    ),
+                    );
                   },
                     child: Row(
                       children: [

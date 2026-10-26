@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'Screen6.dart';
 
 class Screen5 extends StatefulWidget{
   @override
@@ -187,8 +188,19 @@ Widget build(BuildContext context) {
               customBox(box9, '9'),
             ],
           ),
-
-        ],
+          SizedBox (height: 20),
+          IconButton(
+  icon: Icon(Icons.arrow_forward_ios, color: Colors.indigo),
+  onPressed: () {
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => Screen6(), 
+      ),
+    );
+  },
+)
+        ]
       ),
     ),
   );
