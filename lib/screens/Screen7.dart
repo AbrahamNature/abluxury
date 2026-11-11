@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:abluxury/screens/Screen8.dart';
 
 class Expense {
   final String title;
@@ -90,9 +89,7 @@ class ExpenseRow extends StatelessWidget {
             color: Colors.red,
           ),
           onPressed: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => Screen8())
+            Navigator.pushNamed(context,'/screen8'
             );
           },
         )
@@ -103,7 +100,7 @@ class ExpenseRow extends StatelessWidget {
 }
 
 class Screen7 extends StatelessWidget {
-  const Screen7({super.key});
+    Screen7({super.key});
 
   @override
   Widget build(BuildContext context) {

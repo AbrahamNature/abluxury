@@ -9,6 +9,11 @@ import './screens/Screen5.dart';
 import './screens/Screen6.dart';
 import './screens/Screen7.dart';
 import './screens/Screen8.dart';
+import './screens/Screen9.dart';
+import './screens/Screen10.dart';
+import './screens/Screen11.dart';
+import './screens/Screen12.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -25,7 +30,7 @@ class MyApp extends StatelessWidget {
       ),
      
       debugShowCheckedModeBanner: false,
-      initialRoute: "/screen7",
+      initialRoute: "/screen12",
       routes: {
         "/": (context) => HomeScreen(),
         "/screen1": (context) => Screen1(),
@@ -36,7 +41,13 @@ class MyApp extends StatelessWidget {
         "/screen6": (context) => Screen6(),
         "/screen7": (context) => Screen7(),
         "/screen8": (context) => Screen8(),
+        "/screen9": (context) => Screen9(),
+        "/screen10": (context) => Screen10(),
+        "/screen11": (context) => Screen11(),
+        "/screen12": (context) => CounterScreen(),
+      
       },
     );
   }
 }
+ 

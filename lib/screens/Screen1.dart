@@ -5,9 +5,9 @@ class Screen1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Contact"),
-        backgroundColor: const Color.fromARGB(255, 136, 248, 168),
-        foregroundColor: const Color.fromARGB(215, 21, 12, 12),
+        title:  Text("Contact"),
+        backgroundColor:  Color.fromARGB(255, 136, 248, 168),
+        foregroundColor:  Color.fromARGB(215, 21, 12, 12),
         elevation: 10,
          leading: IconButton(
           icon: Icon(Icons.arrow_back),
@@ -17,18 +17,17 @@ class Screen1 extends StatelessWidget {
           ),
       ),
       body: Padding(
-        padding: const EdgeInsets.all(20),
+        padding: EdgeInsets.all(20),
         child: Column(
           children: [
-            // Avatar
             Container(
               width: 100,
               height: 100,
-              decoration: const BoxDecoration(
+              decoration: BoxDecoration(
                 color: Color.fromARGB(214, 46, 203, 112),
                 shape: BoxShape.circle,
               ),
-              child: const Center(
+              child: Center(
                 child: Text(
                   "AB",
                   style: TextStyle(
@@ -41,8 +40,6 @@ class Screen1 extends StatelessWidget {
             ),
 
              SizedBox(height: 50),
-
-  
               Text(
               "Abraham Nature",
               style: TextStyle(
@@ -63,15 +60,15 @@ class Screen1 extends StatelessWidget {
              SizedBox(height: 20),
              Container( 
               decoration: BoxDecoration(
-                color: const Color.fromARGB(238, 244, 183, 183),
+                color:  Color.fromARGB(238, 244, 183, 183),
                 borderRadius: BorderRadius.circular(10)
               ),
-              padding: const EdgeInsetsGeometry.all(40),
+              padding: EdgeInsetsGeometry.all(40),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children:[
-                  Icon(Icons.email, color:const Color.fromARGB(160, 47, 226, 53)),
+                  Icon(Icons.email, color: Color.fromARGB(160, 47, 226, 53)),
                   SizedBox(width: 20),
                   Text("Abrahamaisa001@gmail.com"),
                   
