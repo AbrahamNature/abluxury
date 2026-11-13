@@ -43,9 +43,8 @@ class MyApp extends StatelessWidget {
         "/screen8": (context) => Screen8(),
         "/screen9": (context) => Screen9(),
         "/screen10": (context) => Screen10(),
-        "/screen11": (context) => Screen11(),
+        "/Screen11": (context) => Screen11(),
         "/screen12": (context) => CounterScreen(),
-      
       },
     );
   }
